@@ -1,0 +1,17 @@
+.App-header {
+  min-height: 70px;
+  padding: 20px;
+  color: var(--goldMain);
+  margin: 20px;
+  margin-bottom: 40px;
+  background-image: url(../../../public/images/pattern.jpeg);
+  border-width: 1em;
+  border-style: solid;
+  border-image: linear-gradient(var(--goldMain), var(--goldLight)) 1 stretch;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-shadow: -1px -1px 0 var(--redDark), 1px -1px 0 var(--redDark),
+    -1px 1px 0 var(--redDark), 1px 1px 0 var(--redDark);
+}
